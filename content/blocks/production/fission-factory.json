@@ -1,0 +1,77 @@
+{
+  "localizedName": "Fission Factory",
+  "description": "Uses a bit of phase to speed up the fission reaction of thorium, creating enough heat to melt materials into quantux.",
+  "type": "GenericCrafter",
+  "drawer": "drawDefault",
+  "baseSprite": "fission-factory",
+  "size": 4,
+  "hasPower": true,
+  "hasLiquids": false,
+  "hasItems": true,
+  "itemCapacity": 80,
+  "craftTime": 230,
+  "craftEffect": {
+    "type": "multiEffect",
+    "effects": [
+      {
+        "type": "WaveEffect",
+        "lifetime": 25,
+        "sides": 4,
+        "rotation": 90,
+        "sizeFrom": 0,
+        "sizeTo": 40,
+        "strokeFrom": 0,
+        "strokeTo": 4,
+        "colorFrom": "A170F4FF",
+        "colorTo": "A170F4FF"
+      },
+      {
+        "type": "WaveEffect",
+        "lifetime": 25,
+        "sides": 4,
+        "sizeFrom": 40,
+        "sizeTo": 0,
+        "strokeFrom": 0,
+        "strokeTo": 4,
+        "colorFrom": "A170F4FF",
+        "colorTo": "A170F4FF"
+      }
+    ]
+  },
+  "updateEffect": {
+    "type": "WaveEffect",
+    "lifetime": 30,
+    "sizeFrom": 5,
+    "sizeTo": 0,
+    "strokeFrom": 2,
+    "strokeTo": 0,
+    "sides": 6,
+    "colorFrom": "C3A0FFFF",
+    "colorTo": "774ACFFF"
+  },
+  "consumes": {
+    "power": 4,
+    "items": {
+      "items": [
+        { "item": "phase-fabric", "amount": 2 },
+        { "item": "thorium", "amount": 18 },
+        { "item": "xanium", "amount": 14 },
+		{ "item": "quantux", "amount": 1 },
+      ]
+    }
+  },
+  "requirements": [
+    { "item": "silicon", "amount": 450 },
+    { "item": "titanium", "amount": 400 },
+    { "item": "quantux", "amount": 300 },
+    { "item": "osmium", "amount": 300 },
+    { "item": "surge-alloy", "amount": 200 },
+    { "item": "phase-fabric", "amount": 100 }
+  ],
+  "category": "crafting",
+  "research": "alloy-kiln",
+  "outputItem": {
+    "item": "rutuxium",
+    "amount": 8
+  }
+}

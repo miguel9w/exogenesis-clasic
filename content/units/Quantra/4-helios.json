@@ -1,0 +1,20 @@
+{
+  "localizedName": "Pinnacle",
+  "description": "[acid]This unit is equipped with a powerful atomizer cannon that deals massive damage. it has four gamma lancers for extra power. can build horizons",
+  "research": "3-vega",
+  "type": "naval",
+  "armor": 13,
+  "drag": 0.17,
+  "targetAir": true,
+  "hitSize": 54,
+  "health": 9280,
+  "speed": 0.7,
+  "accel": 0.3,
+  "rotateSpeed": 1.9,
+  "trailX": 15,
+  "trailY": -6,
+  "trailScl": 3,
+  "trailLength": 45,
+  "rotateShooting": false,
+  "weapons": []
+}

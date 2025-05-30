@@ -1,0 +1,76 @@
+type: PowerTurret
+
+size: 3
+
+"reload": 240,
+"recoil": 0,
+"rotateSpeed": 0,
+"shootCone": 360,
+"range": 200,
+"heatColor": "bbdefb",
+"cooldownTime": 120,
+"shootSound": "laser",
+
+shoot: {
+	type: ShootSpread
+	spread: 1
+	shots: 360
+}
+
+"inaccuracy": 0,
+"targetAir": true,
+"targetGround": true,
+
+// "powerUse": 18,
+"hasPower": true,
+    
+shootType: {
+	"sprite": "xguctt-wavee",
+	"collidesTiles": false,
+	"speed": 8,
+	"height": 48,
+	"width": 8,
+	"drawSize": 0,
+	"hitSize": 16,
+	"pierce": true,
+	"lifetime": 40,
+	"knockback": 0,
+	"ammoMultiplier": 4,
+	"damage": 1,
+	"frontColor": "bbdefb",
+	"backColor": "90caf9",
+	"hitEffect": "lancerLaserCharge",
+	"despawnEffect": "none",
+	"shootEffect": "none",
+	"smokeEffect": "none",
+	"incendChance": 0,
+	
+	status: {
+		"name": "electron",
+		"effect": "lancerLaserCharge",
+		"speedMultiplier": 0.80,
+		"reloadMultiplier": 0.80,
+		"damageMultiplier": 0.85
+	}
+}
+
+category: turret
+
+requirements: [
+	copper/400
+	lead/380
+	osmium/230
+	titanium/200
+	silicon/265
+]
+
+research: {
+	requirements: [
+		copper/400
+		lead/380
+		osmium/230
+		titanium/200
+		silicon/265
+	]
+	parent: exogenesis-turrets
+}

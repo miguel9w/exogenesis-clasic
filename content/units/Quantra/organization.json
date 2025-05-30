@@ -1,0 +1,29 @@
+{
+  "name": "Organization",
+  "description": "[acid]The organization is the fifth teir upgrade...",
+  "research": "system",
+  "type": "mech",
+  "armor": 18,
+  "lightRadius": 110,
+  "lightColor": "C2FF70FF",
+  "rotateSpeed": 2.3,
+  "canDrown": false,
+  "hitSize": 39,
+  "mechFrontSway": 1.6,
+  "mechSideSway": 0.6,
+  "commandLimit": 8,
+  "mechStepParticles": true,
+  "mechStepShake": 1,
+  "singleTarget": true,
+  "speed": 0.55,
+  "health": 25400,
+  "range": 300,
+  "buildSpeed": 4,
+  "immunities": [
+    "burning",
+    "melting",
+    "corroded",
+    "slow"
+  ],
+  "weapons": []
+}

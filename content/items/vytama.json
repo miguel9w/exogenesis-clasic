@@ -1,0 +1,13 @@
+{
+  "type": "Item",
+  "localizedName": "Vytama",
+  "description": "A material that absorbs nearly all light and stores it as mysterious energy. Found on Vyrthian-ravaged worlds and used in various technologies.",
+  "details": "Gives off an eerie feeling of death and chaos.",
+  "cost": 3,
+  "color": "B7FF7CFF",
+  "hardness": 3,
+  "lowPriority": false,
+  "alwaysUnlocked": false,
+  "radioactivity": 0,
+  "research": "graphite"
+}

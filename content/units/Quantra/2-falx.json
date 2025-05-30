@@ -1,0 +1,20 @@
+{
+  "localizedName": "Rank",
+  "description": "[acid] This unit is equipped with two powerful gamma artillery that homes in on targets, the bullet moves slowly tho it also has a gamma zapper",
+  "research": "1-arco",
+  "type": "naval",
+  "speed": 0.9,
+  "armor": 5,
+  "drag": 0.15,
+  "targetAir": true,
+  "hitSize": 17,
+  "health": 1280,
+  "accel": 0.3,
+  "rotateSpeed": 3.3,
+  "trailLength": 20,
+  "trailX": 5.5,
+  "trailY": -4,
+  "trailScl": 1.9,
+  "rotateShooting": false,
+  "weapons": []
+}

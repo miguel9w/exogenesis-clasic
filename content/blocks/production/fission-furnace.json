@@ -1,0 +1,57 @@
+{
+  "localizedName": "Fission Furnace",
+  "description": "Uses the fissile properties of thorium to cause a fusion reaction between thorium and xanium to create quantax.",
+  "type": "GenericCrafter",
+  "drawer": "drawDefault",
+  "baseSprite": "fission-furnace",
+  "size": 3,
+  "hasPower": true,
+  "hasLiquids": false,
+  "hasItems": true,
+  "itemCapacity": 30,
+  "craftTime": 120,
+  "craftEffect": {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 18,
+    "lifetime": 38,
+    "length": 45,
+    "cone": -360,
+    "lenFrom": 10,
+    "lenTo": 0,
+    "colorFrom": "C3A0FFFF",
+    "colorTo": "774ACFFF"
+  },
+  "updateEffect": {
+    "type": "WaveEffect",
+    "lifetime": 30,
+    "sizeFrom": 5,
+    "sizeTo": 0,
+    "strokeFrom": 2,
+    "strokeTo": 0,
+    "sides": 6,
+    "colorFrom": "C3A0FFFF",
+    "colorTo": "774ACFFF"
+  },
+  "consumes": {
+    "power": 2,
+    "items": {
+      "items": [
+        { "item": "thorium", "amount": 10 },
+        { "item": "xanium", "amount": 8 }
+      ]
+    }
+  },
+  "requirements": [
+    { "item": "silicon", "amount": 160 },
+    { "item": "plastanium", "amount": 190 },
+    { "item": "metaglass", "amount": 140 },
+    { "item": "titanium", "amount": 270 }
+  ],
+  "category": "crafting",
+  "research": "xanium-crucible",
+  "outputItem": {
+    "item": "quantux",
+    "amount": 3
+  }
+}

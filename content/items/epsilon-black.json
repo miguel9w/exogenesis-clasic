@@ -1,0 +1,11 @@
+{
+  "localizedName": "Epsilonium",
+  "description": "A material used for advanced and deadly weaponry, defense, and various structures.",
+  "details": "A sinister material that was used by the Vyrthians to create various structures and powerful weaponry.",
+  "cost": 7,
+  "lowPriority": true,
+  "hardness": 8,
+  "color": "202328FF",
+  "research": "surge-alloy",
+  "parent": "team-Vyrthians"
+}

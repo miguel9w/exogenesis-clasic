@@ -1,0 +1,9 @@
+{
+  "type": "Floor",
+  "variants": 5,
+  "wall": "racor-wall",
+  "liquidDrop": "axinian",
+  "attributes": {
+    "heat": -3.5
+  },
+}

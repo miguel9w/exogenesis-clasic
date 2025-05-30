@@ -1,0 +1,71 @@
+{
+  "type": "UnitFactory",
+  "researchCostMultiplier": 0.3,
+  "size": 3,
+  "consumes": {
+    "power": 5
+  },
+  "plans": [
+    {
+      "unit": "pteris",
+      "requirements": [
+        {
+          "item": "silicon",
+          "amount": 20
+        },
+        {
+          "item": "valvanite",
+          "amount": 20
+        },
+        {
+          "item": "titanium",
+          "amount": 10
+        }
+      ],
+      "time": 300
+    }
+    {
+      "unit": "1-arco",
+      "requirements": [
+        { "item": "silicon", "amount": 20 },
+        { "item": "metaglass", "amount": 20 },
+        { "item": "valvanite", "amount": 25 }
+      ],
+      "time": 460
+    }
+    {
+      "unit": "rule",
+      "requirements": [
+        { "item": "silicon", "amount": 20 },
+        { "item": "graphite", "amount": 20 },
+        { "item": "valvanite", "amount": 25 }
+      ],
+      "time": 460
+    }
+    {
+      "unit": "meteor",
+      "requirements": [
+        { "item": "silicon", "amount": 20 },
+        { "item": "graphite", "amount": 20 },
+        { "item": "genvunite", "amount": 25 }
+      ],
+      "time": 460
+    }
+  ],
+  "requirements": [
+    {
+      "item": "silicon",
+      "amount": 580
+    },
+    {
+      "item": "lead",
+      "amount": 180
+    },
+    {
+      "item": "valvanite",
+      "amount": 180
+    }
+  ],
+  "category": "units",
+  "research": "team-quantra"
+}

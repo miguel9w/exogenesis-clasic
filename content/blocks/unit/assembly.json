@@ -1,0 +1,87 @@
+{
+  "type": "UnitFactory",
+  "description": "Builds prototype units created by power factions.",
+  "localizedName": "Assembly",
+  "size": 7,
+  "consumes": {
+    "power": 25
+  },
+  "plans": [
+    {
+      "unit": "PT-solstice",
+      "requirements": [
+        { "item": "silicon", "amount": 1000 },
+        { "item": "surge-alloy", "amount": 750 },
+        { "item": "primal-red", "amount": 780 },
+        { "item": "phase-fabric", "amount": 800 },
+        { "item": "plastanium", "amount": 1100 },
+        { "item": "titanium", "amount": 980 },
+        { "item": "lead", "amount": 580 }
+      ],
+      "time": 3000
+    },
+    {
+      "unit": "PT-anomaly",
+      "requirements": [
+        { "item": "silicon", "amount": 1000 },
+        { "item": "surge-alloy", "amount": 750 },
+        { "item": "quantux", "amount": 780 },
+        { "item": "phase-fabric", "amount": 800 },
+        { "item": "plastanium", "amount": 1100 },
+        { "item": "titanium", "amount": 980 },
+        { "item": "lead", "amount": 580 }
+      ],
+      "time": 3000
+    },
+    {
+      "unit": "PT-redox",
+      "requirements": [
+        { "item": "silicon", "amount": 1000 },
+        { "item": "surge-alloy", "amount": 750 },
+        { "item": "gamma-green", "amount": 780 },
+        { "item": "phase-fabric", "amount": 800 },
+        { "item": "plastanium", "amount": 1100 },
+        { "item": "titanium", "amount": 980 },
+        { "item": "lead", "amount": 580 }
+      ],
+      "time": 3000
+    },
+    {
+      "unit": "PT-surge",
+      "requirements": [
+        { "item": "silicon", "amount": 1000 },
+        { "item": "surge-alloy", "amount": 750 },
+        { "item": "alpha-yellow", "amount": 780 },
+        { "item": "phase-fabric", "amount": 800 },
+        { "item": "plastanium", "amount": 1100 },
+        { "item": "titanium", "amount": 980 },
+        { "item": "lead", "amount": 580 }
+      ],
+      "time": 3000
+    },
+    {
+      "unit": "PT-stratosphere",
+      "requirements": [
+        { "item": "silicon", "amount": 1000 },
+        { "item": "surge-alloy", "amount": 750 },
+        { "item": "omega-blue", "amount": 780 },
+        { "item": "phase-fabric", "amount": 800 },
+        { "item": "plastanium", "amount": 1100 },
+        { "item": "titanium", "amount": 980 },
+        { "item": "lead", "amount": 580 }
+      ],
+      "time": 3000
+    }
+  ],
+  "requirements": [
+    { "item": "silicon", "amount": 1500 },
+    { "item": "surge-alloy", "amount": 750 },
+    { "item": "metaglass", "amount": 680 },
+    { "item": "lead", "amount": 1800 },
+    { "item": "osmium", "amount": 1800 },
+    { "item": "plastanium", "amount": 1100 },
+    { "item": "titanium", "amount": 980 }
+  ],
+  "category": "units",
+  "research": "core-nucleus"
+}

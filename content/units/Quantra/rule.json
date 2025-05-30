@@ -1,0 +1,18 @@
+{
+  "name": "Rule",
+  "research": "dagger",
+  "description": "[acid]A small mech unit created by the Quantra...",
+  "type": "mech",
+  "armor": 3,
+  "hitSize": 11,
+  "commandLimit": 8,
+  "buildSpeed": 2.3,
+  "speed": 0.8,
+  "flying": false,
+  "health": 610,
+  "range": 100,
+  "immunities": [
+    "corroded"
+  ],
+  "weapons": []
+}
