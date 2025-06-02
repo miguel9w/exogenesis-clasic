@@ -23,6 +23,9 @@ shoot: {
 
 // "powerUse": 18,
 "hasPower": true,
+consumes: {
+  power: 18
+}
     
 shootType: {
 	"sprite": "xguctt-wavee",

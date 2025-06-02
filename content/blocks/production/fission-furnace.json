@@ -23,15 +23,7 @@
     "colorTo": "774ACFFF"
   },
   "updateEffect": {
-    "type": "WaveEffect",
-    "lifetime": 30,
-    "sizeFrom": 5,
-    "sizeTo": 0,
-    "strokeFrom": 2,
-    "strokeTo": 0,
-    "sides": 6,
-    "colorFrom": "C3A0FFFF",
-    "colorTo": "774ACFFF"
+    "type": "None"
   },
   "consumes": {
     "power": 2,

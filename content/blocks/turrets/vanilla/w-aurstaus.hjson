@@ -19,6 +19,9 @@ shoot: {
 "heatColor": "74C2E8FF",
 "update": true,
 "hasPower": true,
+consumes: {
+  power: 753
+}
 "shootSound": "bigLaserShoot",
 "shake": 6,
 "recoil" : 3.5,

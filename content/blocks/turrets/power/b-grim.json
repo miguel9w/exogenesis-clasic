@@ -5,6 +5,7 @@
   "size": 4,
   "health": 180,
   "reloadTime": 11,
+  "cooldownTime": 45,
   "range": 300,
   "shots": 1,
   "targetAir": true,
@@ -12,9 +13,14 @@
   "shootCone": 40,
   "spread": 4,
   "powerUse": 18,
+  "hasPower": true,
+  "consumes": {
+    "power": {
+      "amount": 18
+    }
+  },
   "coolantMultiplier": 1.6,
   "update": true,
-  "hasPower": true,
   "shootEffect": "shootBigSmoke2",
   "shootShake": 4,
   "firingMoveFract": 0.5,

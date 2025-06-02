@@ -6,7 +6,8 @@
   "size": 2,
   "health": 240,
   "reloadTime": 64,
-  "burstSpacing": 5,
+  "cooldownTime": 30,
+  "burstSpacing": 10,
   "range": 200,
   "inaccuracy": 5,
   "shots": 3,
@@ -19,6 +20,11 @@
   "shootSound": "lasershoot",
   "powerUse": 3,
   "hasPower": true,
+  "consumes": {
+    "power": {
+      "amount": 3
+    }
+  },
   "shootType": {
     "type": "BasicBulletType",
     "sprite": "exogenesis-plasma",

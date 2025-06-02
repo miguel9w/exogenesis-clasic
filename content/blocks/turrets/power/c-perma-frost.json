@@ -67,5 +67,8 @@
   ],
   "category": "turret",
   "research": "c-cold",
-  "name": "c-perma-frost"
+  "name": "c-perma-frost",
+  "consumes": {
+    "power": 7
+  }
 }

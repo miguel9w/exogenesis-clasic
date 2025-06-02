@@ -6,6 +6,7 @@
   "health": 460,
   "range": 360,
   "reloadTime": 160,
+  "cooldownTime": 40,
   "inaccuracy": 2,
   "shots": 1,
   "targetAir": true,
@@ -43,6 +44,11 @@
   },
   "powerUse": 13,
   "hasPower": true,
+  "consumes": {
+    "power": {
+      "amount": 13
+    }
+  },
   "shootType": {
     "type": "BasicBulletType",
     "sprite": "exogenesis-plasma",

@@ -139,5 +139,8 @@
     "lead/600"
   ],
   "category": "turret",
-  "research": "p-dark-matter-discharger"
+  "research": "p-dark-matter-discharger",
+  "consumes": {
+    "power": 35
+  }
 }

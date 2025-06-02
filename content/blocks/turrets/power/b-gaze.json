@@ -6,6 +6,7 @@
   "health": 460,
   "range": 300,
   "reloadTime": 80,
+  "cooldownTime": 30,
   "inaccuracy": 2,
   "shots": 1,
   "targetAir": true,
@@ -44,6 +45,11 @@
   },
   "powerUse": 3,
   "hasPower": true,
+  "consumes": {
+    "power": {
+      "amount": 3
+    }
+  },
   "shootType": {
     "type": "FlakBulletType",
     "sprite": "large-bomb",

@@ -6,6 +6,7 @@
   "size": 1,
   "health": 240,
   "reloadTime": 28,
+  "cooldownTime": 20,
   "range": 200,
   "maxAmmo": 48,
   "inaccuracy": 1,
@@ -19,6 +20,11 @@
   "shootSound": "missile",
   "powerUse": 1,
   "hasPower": true,
+  "consumes": {
+    "power": {
+      "amount": 1
+    }
+  },
   "shootType": {
     "type": "BasicBulletType",
     "sprite": "exogenesis-sword",
@@ -103,14 +109,8 @@
     }
   },
   "requirements": [
-    {
-      "item": "silicon",
-      "amount": 17
-    },
-    {
-      "item": "lead",
-      "amount": 134
-    }
+    { "item": "silicon", "amount": 17 },
+    { "item": "lead", "amount": 134 }
   ],
   "category": "turret",
   "research": "duo"

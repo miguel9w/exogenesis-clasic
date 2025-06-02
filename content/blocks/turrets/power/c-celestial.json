@@ -146,5 +146,8 @@
   ],
   "category": "turret",
   "research": "genesis-core",
-  "name": "c-celestial"
+  "name": "c-celestial",
+  "consumes": {
+    "power": 37
+  }
 }

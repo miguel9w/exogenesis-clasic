@@ -67,7 +67,10 @@
       "name": "singularity-warped",
       "description": "The power of a singularity is warping you",
       "transitionDamage": 36,
-      "affinities": ["slow", "unmoving"],
+      "affinities": [
+        "slow",
+        "unmoving"
+      ],
       "damage": 0.2,
       "effect": {
         "type": "WaveEffect",
@@ -81,7 +84,7 @@
       },
       "speedMultiplier": 0.52,
       "reloadMultiplier": 0.35,
-      "healthMultiplier": 0.70
+      "healthMultiplier": 0.7
     },
     "statusDuration": 300,
     "speed": 2.6,
@@ -267,5 +270,8 @@
     "rutuxium/1000"
   ],
   "category": "turret",
-  "research": "p-dark-matter-launcher"
+  "research": "p-dark-matter-launcher",
+  "consumes": {
+    "power": 67
+  }
 }

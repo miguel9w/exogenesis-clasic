@@ -84,5 +84,8 @@
   "category": "turret",
   "research": "p-vortex",
   "alternate": true,
-  "spread": 3
+  "spread": 3,
+  "consumes": {
+    "power": 20
+  }
 }

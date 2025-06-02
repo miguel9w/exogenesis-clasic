@@ -144,5 +144,8 @@
   ],
   "category": "turret",
   "research": "c-halley",
-  "name": "c-oac"
+  "name": "c-oac",
+  "consumes": {
+    "power": 27
+  }
 }

@@ -80,5 +80,8 @@
   ],
   "category": "turret",
   "research": "g-ocean",
-  "name": "g-neptune"
+  "name": "g-neptune",
+  "consumes": {
+    "power": 25
+  }
 }

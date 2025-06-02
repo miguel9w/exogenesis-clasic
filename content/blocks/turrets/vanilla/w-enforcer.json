@@ -88,5 +88,8 @@
   ],
   "category": "turret",
   "research": "w-guard",
-  "name": "w-enforcer"
+  "name": "w-enforcer",
+  "consumes": {
+    "power": 18
+  }
 }

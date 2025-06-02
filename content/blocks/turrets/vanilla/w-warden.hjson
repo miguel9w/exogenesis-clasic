@@ -23,6 +23,9 @@ shoot: {
 "shootSound": "laser",
 // "powerUse": 8,
 "hasPower": true,
+consumes: {
+  power: 8
+}
 
 shootType: {
 	"type": "BasicBulletType",
