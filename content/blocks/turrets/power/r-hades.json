@@ -147,11 +147,9 @@
     "silicon/10000",
     "volcanite/10000",
     "thorium/8000",
-    "titanium/7750",
-    "copper/8700",
+    "tungsten/7750",
+    "beryllium/8700",
     "primal-red/6800",
-    "annihilation-crystal/800",
-    "plastanium/6350",
     "osmium/4000"
   ],
   "research": "r-aftershock",

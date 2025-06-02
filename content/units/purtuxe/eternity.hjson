@@ -19,8 +19,9 @@ research: {
 
 "groundLayer": 75,
 "canDrown": false,
-// "commandLimit": 10,
+"commandLimit": 10,
 "hitSize": 67,
+"drawSize": 128,
 "rotateSpeed": 0.6,
 "buildSpeed": 5,
 "drag": 0.4,
