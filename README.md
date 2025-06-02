@@ -1,6 +1,13 @@
-# Exogenesis
+# Exogenesis Clasic
+This is not the original version of the exogenesis mod but a fork for v7 containing old weapons and units from the mod and 100% playable
+and also fixes several errors and bugs from the original mod 
 
-My discord AureusAltirius#6109
+#original mod: aureusstratus/exogenesis
+
+aureus discord:AureusAltirius#6109
+credits: 
+@AureusStratus
+@miguel9w
 
 Official exogenesis youtube channel link https://youtube.com/channel/UCkIHhwPP42TkNtdx56vbHGA
 
@@ -18,9 +25,31 @@ Exogenesis contains five different races each with there own lore, weapons, defe
 `Credits to Đuvent for making both the lore of the factions and the two attack maps`
 
 `Genesux`: In the "Siravax System" they lay in the sub-zero temperature planet called "Siratla", other planets in the
-system that are comrpised of Siratla Stone and Crystals is Ruxt, While Vantax is a Gas Planet, these three specific
-planets also have multiple satelites(moons) surrounding them, the star is Siravax and the Genesux are comprised of cold
-energy and Siratla stone, They are a type of lithiods, these beings and are strong, their weapons and creations are made
+system that are comprised of Siratla Stone and Crystals is Ruxt, While Vantax is a Gas Planet, these three specific# Exogenesis
+
+aureus discord:AureusAltirius#6109
+credits: 
+@AureusStratus
+@miguel9w
+
+Official exogenesis youtube channel link https://youtube.com/channel/UCkIHhwPP42TkNtdx56vbHGA
+
+A mod that adds a lot more content to the game.
+<br>I just hope you guys enjoy my mod.
+
+## The mod adds:
+
+ alot of stuff
+
+## Mod races/factions
+
+Exogenesis contains five different races each with there own lore, weapons, defense, and units.
+
+`Credits to Đuvent for making both the lore of the factions and the two attack maps`
+
+`Genesux`: In the "Siravax System"  
+planets also have multiple satellites(moons) surrounding them, the star is Siravax and the Genesux are implied of cold
+ energy and Siratla stone, They are a type of lithiods, these beings and are strong, their weapons and creations are made
 out of metal material formed from various metals and cold energy. Little is understood of there goal, but it seems like
 nothing is gonna stop them from achieving it.
 
