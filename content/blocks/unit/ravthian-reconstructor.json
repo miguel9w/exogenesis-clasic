@@ -1,0 +1,110 @@
+{
+  "exogenesis-type": "exogenesis-Reconstructor",
+  "exogenesis-size": 11,
+  "exogenesis-constructTime": 3000,
+  "exogenesis-consumes": {
+    "exogenesis-power": 28,
+    "exogenesis-items": {
+      "exogenesis-items": [
+        {
+          "exogenesis-item": "exogenesis-alpha-yellow",
+          "exogenesis-amount": 1000
+        },
+        {
+          "exogenesis-item": "exogenesis-gamma-green",
+          "exogenesis-amount": 1000
+        },
+        {
+          "exogenesis-item": "exogenesis-osmium",
+          "exogenesis-amount": 1500
+        },
+        {
+          "exogenesis-item": "exogenesis-phase-fabric",
+          "exogenesis-amount": 1720
+        },
+        {
+          "exogenesis-item": "exogenesis-silicon",
+          "exogenesis-amount": 1520
+        },
+        {
+          "exogenesis-item": "exogenesis-plastanium",
+          "exogenesis-amount": 2700
+        }
+      ]
+    }
+  },
+  "exogenesis-requirements": [
+    {
+      "exogenesis-item": "exogenesis-phase-fabric",
+      "exogenesis-amount": 1250
+    },
+    {
+      "exogenesis-item": "exogenesis-osmium",
+      "exogenesis-amount": 1167
+    },
+    {
+      "exogenesis-item": "exogenesis-plastanium",
+      "exogenesis-amount": 1280
+    },
+    {
+      "exogenesis-item": "exogenesis-titanium",
+      "exogenesis-amount": 950
+    },
+    {
+      "exogenesis-item": "exogenesis-silicon",
+      "exogenesis-amount": 1200
+    },
+    {
+      "exogenesis-item": "exogenesis-surge-alloy",
+      "exogenesis-amount": 1280
+    }
+  ],
+  "exogenesis-upgrades": [
+    [
+      "exogenesis-4-helios",
+      "exogenesis-5-prime"
+    ],
+    [
+      "exogenesis-lich",
+      "exogenesis-reaper"
+    ],
+    [
+      "exogenesis-beast",
+      "exogenesis-creature"
+    ],
+    [
+      "exogenesis-moon",
+      "exogenesis-earth"
+    ],
+    [
+      "exogenesis-organization",
+      "exogenesis-government"
+    ],
+    [
+      "exogenesis-zoom",
+      "exogenesis-hurtle"
+    ],
+    [
+      "exogenesis-era",
+      "exogenesis-epoch"
+    ],
+    [
+      "exogenesis-b05-sirius",
+      "exogenesis-b06-eros"
+    ],
+    [
+      "exogenesis-b05-centauri",
+      "exogenesis-b06-altair"
+    ],
+    [
+      "exogenesis-hostile",
+      "exogenesis-assault"
+    ],
+    [
+      "exogenesis-disaccord",
+      "exogenesis-contention"
+    ]
+  ],
+  "exogenesis-category": "exogenesis-units",
+  "exogenesis-research": "exogenesis-hyperius-reconstructor"
+}

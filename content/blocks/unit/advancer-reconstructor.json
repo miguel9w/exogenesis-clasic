@@ -1,0 +1,60 @@
+{
+  "exogenesis-type": "exogenesis-Reconstructor",
+  "exogenesis-size": 11,
+  "exogenesis-constructTime": 8000,
+  "exogenesis-liquidCapacity": 380,
+  "exogenesis-consumes": {
+    "exogenesis-power": 38,
+    "exogenesis-items": {
+      "exogenesis-items": [
+        "silicon/1400",
+        "surge-alloy/1500",
+        "phase-fabric/860",
+        "metaglass/1000",
+        "plastanium/1100",
+        "titanium/980"
+      ]
+    }
+  },
+  "exogenesis-requirements": [
+    "silicon/1500",
+    "surge-alloy/650",
+    "metaglass/1000",
+    "lead/2400",
+    "thorium/1800",
+    "plastanium/800",
+    "phase-fabric/780"
+  ],
+  "exogenesis-upgrades": [
+    [
+      "exogenesis-eclipse",
+      "exogenesis-twilight"
+    ],
+    [
+      "exogenesis-reign",
+      "exogenesis-anvil"
+    ],
+    [
+      "exogenesis-toxopid",
+      "exogenesis-toxicity"
+    ],
+    [
+      "exogenesis-oct",
+      "exogenesis-hex"
+    ],
+    [
+      "exogenesis-omura",
+      "exogenesis-orca"
+    ],
+    [
+      "exogenesis-navanax",
+      "exogenesis-mariana"
+    ],
+    [
+      "exogenesis-corvus",
+      "exogenesis-stella"
+    ]
+  ],
+  "exogenesis-category": "exogenesis-units",
+  "exogenesis-research": "exogenesis-tetrative-reconstructor"
+}

@@ -1,0 +1,110 @@
+{
+  "type": "Reconstructor",
+  "size": 7,
+  "constructTime": 1500,
+  "consumes": {
+    "power": 18,
+    "items": {
+      "items": [
+        {
+          "item": "silicon",
+          "amount": 980
+        },
+        {
+          "item": "osmium",
+          "amount": 700
+        },
+        {
+          "item": "plastanium",
+          "amount": 820
+        },
+        {
+          "item": "titanium",
+          "amount": 780
+        }
+      ]
+    }
+  },
+  "requirements": [
+    {
+      "item": "lead",
+      "amount": 850
+    },
+    {
+      "item": "plastanium",
+      "amount": 580
+    },
+    {
+      "item": "osmium",
+      "amount": 650
+    },
+    {
+      "item": "silicon",
+      "amount": 480
+    },
+    {
+      "item": "thorium",
+      "amount": 380
+    }
+  ],
+  "upgrades": [
+    [
+      "exogenesis-3-vega",
+      "exogenesis-4-helios"
+    ],
+    [
+      "exogenesis-millennia",
+      "exogenesis-eon"
+    ],
+    [
+      "exogenesis-pace",
+      "exogenesis-dash"
+    ],
+    [
+      "exogenesis-comet",
+      "exogenesis-planetoide"
+    ],
+    [
+      "exogenesis-order",
+      "exogenesis-system"
+    ],
+    [
+      "exogenesis-revenant",
+      "exogenesis-poltergeist"
+    ],
+    [
+      "exogenesis-animal",
+      "exogenesis-feral"
+    ],
+    [
+      "exogenesis-b03-kuiper",
+      "exogenesis-b04-oort"
+    ],
+    [
+      "exogenesis-b03-kentaurus",
+      "exogenesis-b04-vega"
+    ],
+    [
+      "exogenesis-b-kuiper",
+      "exogenesis-b-oort"
+    ],
+    [
+      "exogenesis-kentaurus",
+      "exogenesis-vega"
+    ],
+    [
+      "exogenesis-aster",
+      "exogenesis-urtica"
+    ],
+    [
+      "exogenesis-strife",
+      "exogenesis-combat"
+    ],
+    [
+      "exogenesis-debate",
+      "exogenesis-disagreement"
+    ]
+  ],
+  "category": "units",
+  "research": "multi-reconstructor"
+}

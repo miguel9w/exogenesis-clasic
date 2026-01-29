@@ -1,0 +1,40 @@
+{
+  "exogenesis-localizedName": "Soletux Rebuilder",
+  "exogenesis-description": "upgrades Soletux units to third tier",
+  "exogenesis-category": "exogenesis-units",
+  "exogenesis-type": "exogenesis-Reconstructor",
+  "exogenesis-size": 5,
+  "exogenesis-constructTime": 3600,
+  "exogenesis-consumes": {
+    "exogenesis-power": 5,
+    "exogenesis-items": {
+      "exogenesis-items": [
+        "silicon/100",
+        "thorium/80",
+        "volcanite/100"
+      ]
+    },
+    "exogenesis-liquid": {
+      "exogenesis-liquid": "exogenesis-hydrogen",
+      "exogenesis-amount": 0.25
+    }
+  },
+  "exogenesis-upgrades": [
+    [
+      "exogenesis-corona",
+      "exogenesis-photosphere"
+    ],
+    [
+      "exogenesis-molten",
+      "exogenesis-magma"
+    ]
+  ],
+  "exogenesis-research": "exogenesis-soletux-recontructor",
+  "exogenesis-requirements": [
+    "thorium/250",
+    "tungsten/200",
+    "silicon/400",
+    "volcanite/400",
+    "oxide/200"
+  ]
+}

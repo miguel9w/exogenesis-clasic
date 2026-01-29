@@ -1,0 +1,29 @@
+type: MendProjector
+
+size: 2
+
+health: 16000
+
+"hasPower": false,
+"healPercent": 0.6,
+"range": 1,
+"phaseBoost": 0,
+"reload": 45,
+"phaseRangeBoost": 0,
+"baseColor": "A774EAFF",
+"phaseColor": "A774EAFF",
+
+category: defense
+
+requirements: [
+    rutuxium/400
+    vurtimite/200
+]
+
+research: {
+  requirements: [
+      rutuxium/400
+      vurtimite/200
+  ]
+  parent: p-rutuxium-wall
+}

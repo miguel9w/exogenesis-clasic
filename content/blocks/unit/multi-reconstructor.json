@@ -1,0 +1,106 @@
+{
+  "type": "Reconstructor",
+  "size": 5,
+  "constructTime": 800,
+  "consumes": {
+    "power": 13,
+    "items": {
+      "items": [
+        {
+          "item": "silicon",
+          "amount": 640
+        },
+        {
+          "item": "osmium",
+          "amount": 540
+        },
+        {
+          "item": "titanium",
+          "amount": 480
+        },
+        {
+          "item": "lead",
+          "amount": 250
+        }
+      ]
+    }
+  },
+  "requirements": [
+    {
+      "item": "osmium",
+      "amount": 350
+    },
+    {
+      "item": "silicon",
+      "amount": 180
+    },
+    {
+      "item": "metaglass",
+      "amount": 280
+    },
+    {
+      "item": "titanium",
+      "amount": 100
+    }
+  ],
+  "upgrades": [
+    [
+      "exogenesis-law",
+      "exogenesis-order"
+    ],
+    [
+      "exogenesis-agility",
+      "exogenesis-pace"
+    ],
+    [
+      "exogenesis-asteroid",
+      "exogenesis-comet"
+    ],
+    [
+      "exogenesis-varmint",
+      "exogenesis-animal"
+    ],
+    [
+      "exogenesis-century",
+      "exogenesis-millennia"
+    ],
+    [
+      "exogenesis-ghoul",
+      "exogenesis-revenant"
+    ],
+    [
+      "exogenesis-b02-galileo",
+      "exogenesis-b03-kuiper"
+    ],
+    [
+      "exogenesis-b02-gacrux",
+      "exogenesis-b03-kentaurus"
+    ],
+    [
+      "exogenesis-2-falx",
+      "exogenesis-3-vega"
+    ],
+    [
+      "exogenesis-irises",
+      "exogenesis-aster"
+    ],
+    [
+      "exogenesis-disrespect",
+      "exogenesis-strife"
+    ],
+    [
+      "exogenesis-gacrux",
+      "exogenesis-kentaurus"
+    ],
+    [
+      "exogenesis-b-galileo",
+      "exogenesis-b-kuiper"
+    ],
+    [
+      "exogenesis-dispute",
+      "exogenesis-debate"
+    ]
+  ],
+  "category": "units",
+  "research": "multiplicative-reconstructor"
+}

@@ -1,0 +1,98 @@
+{
+  "type": "Reconstructor",
+  "size": 3,
+  "constructTime": 600,
+  "consumes": {
+    "power": 8,
+    "items": {
+      "items": [
+        {
+          "item": "silicon",
+          "amount": 80
+        },
+        {
+          "item": "graphite",
+          "amount": 120
+        },
+        {
+          "item": "metaglass",
+          "amount": 80
+        }
+      ]
+    }
+  },
+  "requirements": [
+    {
+      "item": "silicon",
+      "amount": 240
+    },
+    {
+      "item": "graphite",
+      "amount": 180
+    },
+    {
+      "item": "lead",
+      "amount": 160
+    }
+  ],
+  "upgrades": [
+    [
+      "exogenesis-rule",
+      "exogenesis-law"
+    ],
+    [
+      "exogenesis-1-arco",
+      "exogenesis-2-falx"
+    ],
+    [
+      "exogenesis-meteor",
+      "exogenesis-asteroid"
+    ],
+    [
+      "exogenesis-speed",
+      "exogenesis-agility"
+    ],
+    [
+      "exogenesis-decade",
+      "exogenesis-century"
+    ],
+    [
+      "exogenesis-critter",
+      "exogenesis-varmint"
+    ],
+    [
+      "exogenesis-wraith",
+      "exogenesis-ghoul"
+    ],
+    [
+      "exogenesis-b01-orion",
+      "exogenesis-b02-galileo"
+    ],
+    [
+      "exogenesis-b01-majoris",
+      "exogenesis-b02-gacrux"
+    ],
+    [
+      "exogenesis-pteris",
+      "exogenesis-irises"
+    ],
+    [
+      "exogenesis-challenge",
+      "exogenesis-disrespect"
+    ],
+    [
+      "exogenesis-majoris",
+      "exogenesis-gacrux"
+    ],
+    [
+      "exogenesis-a-orion",
+      "exogenesis-b-galileo"
+    ],
+    [
+      "exogenesis-conflict",
+      "exogenesis-dispute"
+    ]
+  ],
+  "category": "units",
+  "research": "additive-reconstructor"
+}

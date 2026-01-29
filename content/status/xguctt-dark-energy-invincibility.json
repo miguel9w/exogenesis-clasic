@@ -1,0 +1,6 @@
+{
+  "type": "StatusEffect",
+  "name": "xguctt-dark-energy-invincibility",
+  "speedMultiplier": 0,
+  "healthMultiplier": 40000000
+}

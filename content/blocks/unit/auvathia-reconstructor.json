@@ -1,0 +1,67 @@
+{
+  "exogenesis-type": "exogenesis-Reconstructor",
+  "exogenesis-size": 14,
+  "exogenesis-constructTime": 6000,
+  "exogenesis-consumes": {
+    "exogenesis-power": 58,
+    "exogenesis-items": {
+      "exogenesis-items": [
+        "gamma-green/2000",
+        "alpha-yellow/2000",
+        "titanium/3600",
+        "plastanium/3320",
+        "silicon/4420",
+        "thorium/2230",
+        "surge-alloy/3570",
+        "osmium/3800"
+      ]
+    }
+  },
+  "exogenesis-requirements": [
+    "surge-alloy/2130",
+    "copper/3020",
+    "thorium/2420",
+    "plastanium/2130",
+    "titanium/3020",
+    "metaglass/4120",
+    "silicon/3530",
+    "graphite/5670",
+    "lead/4000"
+  ],
+  "exogenesis-upgrades": [
+    [
+      "exogenesis-5-prime",
+      "exogenesis-6-apex"
+    ],
+    [
+      "exogenesis-reaper",
+      "exogenesis-nemesis"
+    ],
+    [
+      "exogenesis-epoch",
+      "exogenesis-p-primordial"
+    ],
+    [
+      "exogenesis-b06-eros",
+      "exogenesis-b07-atlas"
+    ],
+    [
+      "exogenesis-contention",
+      "exogenesis-battle"
+    ],
+    [
+      "exogenesis-altair",
+      "exogenesis-universalis"
+    ],
+    [
+      "exogenesis-b-eros",
+      "exogenesis-b-atlas"
+    ],
+    [
+      "exogenesis-assault",
+      "exogenesis-bloodshed"
+    ]
+  ],
+  "exogenesis-category": "exogenesis-units",
+  "exogenesis-research": "exogenesis-ravthian-reconstructor"
+}

@@ -1,0 +1,63 @@
+{
+  "localizedName": "Radioactive Decayer",
+  "description": "[acid]Rapidly decays radioactive thorium to generate a large amount of power.",
+  "type": "ConsumeGenerator",
+  "health": 400,
+  "size": 4,
+  "hasItems": true,
+  "itemCapacity": 15,
+  "itemDuration": 240,
+  "powerProduction": 24.5,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawFlame",
+        "flameColor": "A9D8FFFF"
+      }
+    ]
+  },
+  "updateEffect": "none",
+  "ambientSound": "hum",
+  "ambientSoundVolume": 0.25,
+  "consumes": {
+    "items": {
+      "items": [
+        {
+          "item": "thorium",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  "requirements": [
+    {
+      "item": "thorium",
+      "amount": 600
+    },
+    {
+      "item": "plastanium",
+      "amount": 500
+    },
+    {
+      "item": "gamma-green",
+      "amount": 450
+    },
+    {
+      "item": "silicon",
+      "amount": 600
+    },
+    {
+      "item": "phase-fabric",
+      "amount": 300
+    }
+  ],
+  "category": "power",
+  "research": "rtg-generator",
+  "breakable": true,
+  "buildable": true,
+  "alwaysUnlocked": true
+}

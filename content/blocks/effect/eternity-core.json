@@ -1,0 +1,20 @@
+{
+  "localizedName": "Eternity Core",
+  "description": "A large core that has more health than standard cores and has decent storage and unit cap.",
+  "type": "CoreBlock",
+  "health": 9000,
+  "size": 7,
+  "itemCapacity": 16900,
+  "unitCapModifier": 48,
+  "researchCostMultiplier": 0.06,
+  "unitType": "temporal",
+  "requirements": [
+    { "item": "silicon", "amount": 4200 },
+    { "item": "surge-alloy", "amount": 3000 },
+    { "item": "thorium", "amount": 4900 },
+    { "item": "osmium", "amount": 6000 },
+    { "item": "quantux", "amount": 1000 }
+  ],
+  "category": "effect",
+  "research": "core-nucleus"
+}

@@ -1,0 +1,173 @@
+{
+  "type": "UnitFactory",
+  "description": "Can create Purtuxian units.",
+  "localizedName": "Purtuxian Factory",
+  "size": 3,
+  "consumes": {
+    "power": 5
+  },
+  "plans": [
+    {
+      "unit": "decade",
+      "requirements": [
+        {
+          "item": "silicon",
+          "amount": 20
+        },
+        {
+          "item": "titanium",
+          "amount": 20
+        },
+        {
+          "item": "vurtimite",
+          "amount": 25
+        }
+      ],
+      "time": 460
+    },
+    {
+      "unit": "speed",
+      "requirements": [
+        {
+          "item": "silicon",
+          "amount": 20
+        },
+        {
+          "item": "metaglass",
+          "amount": 20
+        },
+        {
+          "item": "vurtimite",
+          "amount": 25
+        }
+      ],
+      "time": 460
+    },
+    {
+      "unit": "agility",
+      "requirements": [
+        {
+          "item": "silicon",
+          "amount": 40
+        },
+        {
+          "item": "metaglass",
+          "amount": 30
+        },
+        {
+          "item": "vurtimite",
+          "amount": 45
+        }
+      ],
+      "time": 800
+    },
+    {
+      "unit": "dash",
+      "requirements": [
+        {
+          "item": "silicon",
+          "amount": 60
+        },
+        {
+          "item": "titanium",
+          "amount": 50
+        },
+        {
+          "item": "vurtimite",
+          "amount": 80
+        }
+      ],
+      "time": 1200
+    },
+    {
+      "unit": "eon",
+      "requirements": [
+        {
+          "item": "silicon",
+          "amount": 100
+        },
+        {
+          "item": "vurtimite",
+          "amount": 150
+        }
+      ],
+      "time": 2000
+    },
+    {
+      "unit": "hurtle",
+      "requirements": [
+        {
+          "item": "silicon",
+          "amount": 150
+        },
+        {
+          "item": "vurtimite",
+          "amount": 200
+        }
+      ],
+      "time": 3000
+    },
+    {
+      "unit": "millennia",
+      "requirements": [
+        {
+          "item": "silicon",
+          "amount": 250
+        },
+        {
+          "item": "vurtimite",
+          "amount": 400
+        }
+      ],
+      "time": 5000
+    },
+    {
+      "unit": "pace",
+      "requirements": [
+        {
+          "item": "silicon",
+          "amount": 300
+        },
+        {
+          "item": "vurtimite",
+          "amount": 600
+        }
+      ],
+      "time": 8000
+    },
+    {
+      "unit": "zoom",
+      "requirements": [
+        {
+          "item": "silicon",
+          "amount": 500
+        },
+        {
+          "item": "vurtimite",
+          "amount": 1000
+        }
+      ],
+      "time": 15000
+    }
+  ],
+  "requirements": [
+    {
+      "item": "silicon",
+      "amount": 580
+    },
+    {
+      "item": "osmium",
+      "amount": 180
+    },
+    {
+      "item": "vurtimite",
+      "amount": 180
+    },
+    {
+      "item": "titanium",
+      "amount": 160
+    }
+  ],
+  "category": "units",
+  "research": "ground-factory"
+}

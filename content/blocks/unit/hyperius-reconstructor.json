@@ -1,0 +1,86 @@
+{
+  "exogenesis-type": "exogenesis-Reconstructor",
+  "exogenesis-size": 9,
+  "exogenesis-constructTime": 2000,
+  "exogenesis-consumes": {
+    "exogenesis-power": 22,
+    "exogenesis-items": {
+      "exogenesis-items": [
+        {
+          "exogenesis-item": "exogenesis-osmium",
+          "exogenesis-amount": 890
+        },
+        {
+          "exogenesis-item": "exogenesis-thorium",
+          "exogenesis-amount": 850
+        },
+        {
+          "exogenesis-item": "exogenesis-surge-alloy",
+          "exogenesis-amount": 920
+        },
+        {
+          "exogenesis-item": "exogenesis-silicon",
+          "exogenesis-amount": 1920
+        },
+        {
+          "exogenesis-item": "exogenesis-plastanium",
+          "exogenesis-amount": 1380
+        }
+      ]
+    }
+  },
+  "exogenesis-requirements": [
+    {
+      "exogenesis-item": "exogenesis-thorium",
+      "exogenesis-amount": 850
+    },
+    {
+      "exogenesis-item": "exogenesis-plastanium",
+      "exogenesis-amount": 680
+    },
+    {
+      "exogenesis-item": "exogenesis-titanium",
+      "exogenesis-amount": 750
+    },
+    {
+      "exogenesis-item": "exogenesis-silicon",
+      "exogenesis-amount": 1200
+    },
+    {
+      "exogenesis-item": "exogenesis-surge-alloy",
+      "exogenesis-amount": 1280
+    }
+  ],
+  "exogenesis-upgrades": [
+    [
+      "exogenesis-b04-oort",
+      "exogenesis-b05-sirius"
+    ],
+    [
+      "exogenesis-b04-vega",
+      "exogenesis-b05-centauri"
+    ],
+    [
+      "exogenesis-urtica",
+      "exogenesis-thymus"
+    ],
+    [
+      "exogenesis-combat",
+      "exogenesis-hostile"
+    ],
+    [
+      "exogenesis-vega",
+      "exogenesis-centauri"
+    ],
+    [
+      "exogenesis-b-oort",
+      "exogenesis-b-sirius"
+    ],
+    [
+      "exogenesis-disagreement",
+      "exogenesis-disaccord"
+    ]
+  ],
+  "exogenesis-category": "exogenesis-units",
+  "exogenesis-research": "exogenesis-mass-reconstructor"
+}

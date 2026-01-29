@@ -1,0 +1,71 @@
+{
+  "localizedName": "Vytama Synthesizer",
+  "description": "[purple]Synthesizes vytama using volatile valvanite and rare vurtinamite, under high-energy fire-based conversion.",
+  "type": "GenericCrafter",
+  "size": 3,
+  "health": 500,
+  "craftTime": 180,
+  "hasPower": true,
+  "hasLiquids": false,
+  "hasItems": true,
+  "itemCapacity": 30,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawFlame",
+        "flameColor": "A9D8FFFF"
+      }
+    ]
+  },
+  "ambientSound": "smelter",
+  "ambientSoundVolume": 0.4,
+  "updateEffect": {
+    "type": "none"
+  },
+  "consumes": {
+    "power": 2.0,
+    "items": {
+      "items": [
+        {
+          "item": "vurtimite",
+          "amount": 1
+        },
+        {
+          "item": "valvanite",
+          "amount": 3
+        }
+      ]
+    }
+  },
+  "outputItem": {
+    "item": "vytama",
+    "amount": 2
+  },
+  "requirements": [
+    {
+      "item": "silicon",
+      "amount": 300
+    },
+    {
+      "item": "plastanium",
+      "amount": 250
+    },
+    {
+      "item": "vurtimite",
+      "amount": 100
+    },
+    {
+      "item": "valvanite",
+      "amount": 150
+    }
+  ],
+  "category": "crafting",
+  "research": "cryofluid-mixer",
+  "buildable": true,
+  "breakable": true,
+  "alwaysUnlocked": true
+}

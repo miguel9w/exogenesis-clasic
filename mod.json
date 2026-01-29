@@ -1,0 +1,10 @@
+{
+  "displayName": "[cyan]Exogenesis-fix+classic",
+  "name": "exogenesis",
+  "repo": "miguelitronite/ExoGenesisFix2",
+  "subtitle": "[#73FFAEFF]A fixed and classic version of Exogenesis",
+  "author": "[blue]AureusStratus(mod), miguelitronite(fork)",
+  "description": "A mod that adds in a butt load of content. This classic version is maintained and fixed for newer game versions.",
+  "minGameVersion": "154",
+  "version": "[blue]classic-z1.0"
+}
