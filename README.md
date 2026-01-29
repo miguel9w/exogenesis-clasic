@@ -1,5 +1,5 @@
 # Exogenesis Clasic
-This is not the original version of the exogenesis mod but a fork for v7 containing old weapons and units from the mod and 100% playable
+This is not the original version of the exogenesis mod but a fork for v7 & v8 containing old weapons and units from the mod and 100% playable
 and also fixes several errors and bugs from the original mod 
 
 #original mod: aureusstratus/exogenesis
